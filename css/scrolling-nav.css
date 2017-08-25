@@ -1,0 +1,80 @@
+
+
+
+@media (max-width: 991px) {
+    #header-div {
+        padding-top: 100px;
+        background: url("../img/sunrise-small.jpeg") no-repeat;
+        background-size: 100% auto;
+    }
+
+    section {
+        padding: 25px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #header-div {
+        padding: 150px;
+        background: url("../img/sunrise-low.jpeg") no-repeat;
+        background-size: 100% auto;
+    }
+
+    section {
+        padding: 100px 0;
+    }
+
+    .partial-width-table {
+        max-width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+#about {
+   /* background: url("../img/dock_storytelling.jpg") no-repeat;
+    background-size:100% auto;
+    */
+}
+
+#calendar {
+    background: url("../img/paddle_board.JPG") no-repeat;
+    background-size: 100% auto;
+}
+
+#reservations {
+    background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+#summer-reservations {
+    background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+#fall-reservations {
+    background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
+#maps {
+    background: url("../img/king-queen-chairs.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+#volunteer {
+    background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+#work-weekends {
+    background: url("../img/paddle_board.JPG") no-repeat;
+    background-size: 100% auto;
+}
+#committee {
+    background: url("../img/paddle_board.JPG") no-repeat;
+    background-size: 100% auto;
+}
