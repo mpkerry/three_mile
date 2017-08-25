@@ -2,7 +2,7 @@
 
 
 @media (max-width: 991px) {
-    #header-div {
+    #about {
         padding-top: 100px;
         background: url("../img/sunrise-small.jpeg") no-repeat;
         background-size: 100% auto;
@@ -15,7 +15,7 @@
 
 
 @media (min-width: 992px) {
-    #header-div {
+    #about {
         padding: 150px;
         background: url("../img/sunrise-low.jpeg") no-repeat;
         background-size: 100% auto;
@@ -33,43 +33,50 @@
     }
 }
 
-
-
-#about {
-   /* background: url("../img/dock_storytelling.jpg") no-repeat;
-    background-size:100% auto;
-    */
+#expect {
+    background: url("../img/dock_panorama.JPG") no-repeat;
+    background-size: 100% auto;
 }
-
-#calendar {
-    background: url("../img/paddle_board.JPG") no-repeat;
+#bring {
+    background: url("../img/maindock.jpg") no-repeat;
     background-size: 100% auto;
 }
 
+/* reservations.html */
 #reservations {
     background: url("../img/dusk_trail.jpg") no-repeat;
     background-size: 100% auto;
 }
-
 #summer-reservations {
     background: url("../img/dusk_trail.jpg") no-repeat;
     background-size: 100% auto;
 }
-
 #fall-reservations {
     background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
+#calendar {
+    background: url("../img/paddle_board.JPG") no-repeat;
     background-size: 100% auto;
 }
 #maps {
     background: url("../img/king-queen-chairs.jpg") no-repeat;
     background-size: 100% auto;
 }
-
-#volunteer {
+#directions {
     background: url("../img/dusk_trail.jpg") no-repeat;
     background-size: 100% auto;
 }
 
+/*  volunteer.html */
+#overview {
+    background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
+#volunteer {
+    background: url("../img/dusk_trail.jpg") no-repeat;
+    background-size: 100% auto;
+}
 #work-weekends {
     background: url("../img/paddle_board.JPG") no-repeat;
     background-size: 100% auto;

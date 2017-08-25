@@ -32,20 +32,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="aboutDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About</a>
+                <div class="dropdown-menu" aria-labelledby="aboutDropdownMenuLink">
+                    <a class="dropdown-item js-scroll-trigger" href="index.html#about">About</a>
+                    <a class="dropdown-item js-scroll-trigger" href="index.html#expect">What to Expect</a>
+                    <a class="dropdown-item js-scroll-trigger" href="index.html#bring">What to Bring</a>
+                </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#calendar">Calendar</a>
-            </li>
+
             <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="reservations.html" id="reservationsDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Reservations</a>
                 <div class="dropdown-menu" aria-labelledby="reservationsDropdownMenuLink">
+                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#reservations">Reservations Overview</a>
+                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#summer-reservations">Summer Reservations</a>
+                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#fall-reservations">Fall Weekends</a>
                     <a class="dropdown-item js-scroll-trigger" href="reservations.html#calendar">Calendar</a>
-                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#reservations">Summer Reservations</a>
-                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#">Fall Weekends</a>
-                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#"></a>
+                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#maps">Maps</a>
+                    <a class="dropdown-item js-scroll-trigger" href="reservations.html#directions">Getting Here</a>
                 </div>
             </li>
               <li class="nav-item dropdown">
@@ -68,14 +74,14 @@
     <!-- end navigation -->
 
 
-    <section class="text-white " id="header-div">
+    <section class="text-white " id="overview">
       <div class="container">
         <h1>Volunteering</h1>
         <p class="lead">A Strong Tradition</p>
       </div>
     </section>
 
-    <section id="overview" class="">
+    <section id="overview-div" class="">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
