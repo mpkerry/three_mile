@@ -72,6 +72,10 @@ ul ul, ul.checklist li ul {
     background: url("../img/paddle_board.JPG") no-repeat;
     background-size: 100% auto;
 }
+#rates {
+    background: url("../img/cabin_ext1.jpg") no-repeat;
+    background-size: 100% auto;
+}
 #maps {
     background: url("../img/swimming_sunset.JPG") no-repeat;
     background-size: 100% auto;
