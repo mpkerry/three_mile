@@ -22,11 +22,22 @@ ul li {
     font-weight: bold;
 }
 
-ul li li, ul.navbar-nav li, .regular-list li {
+
+ul li li, ul.navbar-nav li, .regular-list li, ul li p {
     font-weight:normal;
 }
 
-ul ul {
+ul.checklist-yes {
+    list-style-image: url("../img/checkbox-checked.png");
+}
+ul.checklist {
+    list-style-image: url("../img/checkbox_unchecked.png");
+}
+ul.checklist-no {
+    list-style-image: url("../img/checkbox-redx.png");
+}
+
+ul ul, ul.checklist li ul {
     list-style-type: none;
     padding-left: 0px;
 }
