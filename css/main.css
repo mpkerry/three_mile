@@ -22,7 +22,7 @@ ul li {
     font-weight: bold;
 }
 
-ul li li, ul.navbar-nav li {
+ul li li, ul.navbar-nav li, .regular-list li {
     font-weight:normal;
 }
 
