@@ -2,12 +2,6 @@
 
 
 @media (max-width: 991px) {
-    #about {
-        padding-top: 100px;
-        background: url("../img/sunrise-small.jpeg") no-repeat;
-        background-size: 100% auto;
-    }
-
     section {
         padding: 25px;
     }
@@ -15,12 +9,6 @@
 
 
 @media (min-width: 992px) {
-    #about {
-        padding: 150px;
-        background: url("../img/sunrise-low.jpeg") no-repeat;
-        background-size: 100% auto;
-    }
-
     section {
         padding: 100px 0;
     }
@@ -38,7 +26,11 @@
     background-size: 100% auto;
 }
 #bring {
-    background: url("../img/maindock.jpg") no-repeat;
+    background: url("../img/table2.jpg") no-repeat;
+    background-size: 100% auto;
+}
+#faq {
+    background: url("../img/dock_storytelling.jpg") no-repeat;
     background-size: 100% auto;
 }
 
@@ -60,7 +52,7 @@
     background-size: 100% auto;
 }
 #maps {
-    background: url("../img/king-queen-chairs.jpg") no-repeat;
+    background: url("../img/swimming_sunset.JPG") no-repeat;
     background-size: 100% auto;
 }
 #directions {
