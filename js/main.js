@@ -15,10 +15,12 @@ $(function () {
         $.each(faqs, function(section, questions){
             $('#faq-accordion-div').append('<br/><h4>' + section + '</h4>');
             var accordion = $('<div>').attr('id','faq-accordion').attr('data-children', '.questions');
+            accordion.append('<hr>');
             $.each(questions, function(q,a) {
                 accordion.append('<div class="questions">');
                 accordion.append('<a data-toggle="collapse" data-parent="#faq-accordion" href="#faq-accordion'+num+'" aria-expanded="false" aria-controls="faq-accordion'+num+'">'+ q + '? ' + '</a>');
                 accordion.append('<div id="faq-accordion'+num+'" class="collapse" role="tabpanel"><p class="mb-3">'+a + '</p></div></div>');
+                accordion.append('<hr>');
                 num++;
             });
             $('#faq-accordion-div').append(accordion);
