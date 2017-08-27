@@ -1,7 +1,22 @@
 
-@media (max-width: 991px) {
+@media (max-width: 449px) {
     section {
         padding: 25px;
+    }
+    #faq {
+        padding-top: 8px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 991px) {
+    section {
+        padding: 50px;
+    }
+    .partial-width-table {
+        max-width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -18,13 +33,12 @@
     }
 }
 
-ul li {
+ul.bold-headers li {
     font-weight: bold;
 }
 
-
-ul li li, ul.navbar-nav li, .regular-list li, ul li p {
-    font-weight:normal;
+ul.bold-headers li p {
+    font-weight: normal;
 }
 
 ul.checklist-yes {
@@ -73,7 +87,7 @@ ul ul, ul.checklist li ul {
     background-size: 100% auto;
 }
 #rates {
-    background: url("../img/cabin_ext1.jpg") no-repeat;
+    background: url("../img/cabin_interior1.jpg") no-repeat;
     background-size: 100% auto;
 }
 #maps {
