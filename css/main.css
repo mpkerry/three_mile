@@ -7,19 +7,19 @@
     }
 
     #expect {
-        background: url("../img/dock_panorama_small.jpg") no-repeat;
+        background: url("../img/dock_panorama_small.jpeg") no-repeat;
         background-size: 100% auto;
         padding-top: 50px;
         padding-bottom:140px;
     }
     #bring {
-        background: url("../img/hammock_small.jpg") no-repeat;
+        background: url("../img/hammock_small.jpeg") no-repeat;
         background-size: 100% auto;
         padding-top: 50px;
         padding-bottom:140px;
     }
     #faq {
-        background: url("../img/dock_storytelling_small.jpg") no-repeat;
+        background: url("../img/dock_storytelling_small.jpeg") no-repeat;
         background-size: 100% auto;
         padding-top: 7px;
         padding-bottom:143px;
@@ -28,49 +28,49 @@
 
     /* reservations.html */
     #reservations {
-        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background: url("../img/dusk_trail_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #summer-reservations {
-        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background: url("../img/dusk_trail_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #fall-reservations {
-        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background: url("../img/dusk_trail_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #calendar {
-        background: url("../img/paddle_board_small.jpg") no-repeat;
+        background: url("../img/paddle_board_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #rates {
-        background: url("../img/cabin_interior1_small.jpg") no-repeat;
+        background: url("../img/cabin_interior1_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #maps {
-        background: url("../img/swimming_sunset_small.jpg") no-repeat;
+        background: url("../img/swimming_sunset_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #directions {
-        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background: url("../img/dusk_trail_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
     /*  volunteer.html */
     #overview {
-        background: url("../img/roofing2.jpg") no-repeat;
+        background: url("../img/roofing2.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #volunteer {
-        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background: url("../img/dusk_trail_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #work-weekends {
-        background: url("../img/paddle_board_small.jpg") no-repeat;
+        background: url("../img/paddle_board_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #committee {
-        background: url("../img/paddle_board_small.jpg") no-repeat;
+        background: url("../img/paddle_board_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
@@ -82,63 +82,63 @@
     }
 
     #expect {
-        background: url("../img/dock_panorama.jpg") no-repeat;
+        background: url("../img/dock_panorama.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #bring {
-        background: url("../img/table2.jpg") no-repeat;
+        background: url("../img/table2.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #faq {
-        background: url("../img/dock_storytelling.jpg") no-repeat;
+        background: url("../img/dock_storytelling.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
     /* reservations.html */
     #reservations {
-        background: url("../img/dusk_trail.jpg") no-repeat;
+        background: url("../img/dusk_trail.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #summer-reservations {
-        background: url("../img/dusk_trail.jpg") no-repeat;
+        background: url("../img/dusk_trail.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #fall-reservations {
-        background: url("../img/dusk_trail.jpg") no-repeat;
+        background: url("../img/dusk_trail.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #calendar {
-        background: url("../img/paddle_board.jpg") no-repeat;
+        background: url("../img/paddle_board.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #rates {
-        background: url("../img/cabin_interior1.jpg") no-repeat;
+        background: url("../img/cabin_interior1.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #maps {
-        background: url("../img/swimming_sunset.jpg") no-repeat;
+        background: url("../img/swimming_sunset.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #directions {
-        background: url("../img/dusk_trail.jpg") no-repeat;
+        background: url("../img/dusk_trail.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
     /*  volunteer.html */
     #overview {
-        background: url("../img/roofing2.jpg") no-repeat;
+        background: url("../img/roofing2.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #volunteer {
-        background: url("../img/dusk_trail.jpg") no-repeat;
+        background: url("../img/dusk_trail.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #work-weekends {
-        background: url("../img/paddle_board.jpg") no-repeat;
+        background: url("../img/paddle_board.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #committee {
-        background: url("../img/paddle_board.jpg") no-repeat;
+        background: url("../img/paddle_board.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
