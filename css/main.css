@@ -7,7 +7,7 @@
     }
 
     #expect {
-        background: url("../img/dock_panorama_small.JPG") no-repeat;
+        background: url("../img/dock_panorama_small.jpg") no-repeat;
         background-size: 100% auto;
         padding-top: 50px;
         padding-bottom:140px;
@@ -40,7 +40,7 @@
         background-size: 100% auto;
     }
     #calendar {
-        background: url("../img/paddle_board_small.JPG") no-repeat;
+        background: url("../img/paddle_board_small.jpg") no-repeat;
         background-size: 100% auto;
     }
     #rates {
@@ -66,11 +66,11 @@
         background-size: 100% auto;
     }
     #work-weekends {
-        background: url("../img/paddle_board_small.JPG") no-repeat;
+        background: url("../img/paddle_board_small.jpg") no-repeat;
         background-size: 100% auto;
     }
     #committee {
-        background: url("../img/paddle_board_small.JPG") no-repeat;
+        background: url("../img/paddle_board_small.jpg") no-repeat;
         background-size: 100% auto;
     }
 
@@ -82,7 +82,7 @@
     }
 
     #expect {
-        background: url("../img/dock_panorama.JPG") no-repeat;
+        background: url("../img/dock_panorama.jpg") no-repeat;
         background-size: 100% auto;
     }
     #bring {
@@ -108,7 +108,7 @@
         background-size: 100% auto;
     }
     #calendar {
-        background: url("../img/paddle_board.JPG") no-repeat;
+        background: url("../img/paddle_board.jpg") no-repeat;
         background-size: 100% auto;
     }
     #rates {
@@ -134,11 +134,11 @@
         background-size: 100% auto;
     }
     #work-weekends {
-        background: url("../img/paddle_board.JPG") no-repeat;
+        background: url("../img/paddle_board.jpg") no-repeat;
         background-size: 100% auto;
     }
     #committee {
-        background: url("../img/paddle_board.JPG") no-repeat;
+        background: url("../img/paddle_board.jpg") no-repeat;
         background-size: 100% auto;
     }
 
