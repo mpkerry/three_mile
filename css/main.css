@@ -1,51 +1,172 @@
 
-@media (max-width: 449px) {
+@media (max-width: 991px) {
     section {
         padding: 25px;
+        padding-top:80px;
+        padding-bottom:110px;
+    }
+
+    #expect {
+        background: url("../img/dock_panorama_small.JPG") no-repeat;
+        background-size: 100% auto;
+        padding-top: 50px;
+        padding-bottom:140px;
+    }
+    #bring {
+        background: url("../img/hammock_small.jpg") no-repeat;
+        background-size: 100% auto;
+        padding-top: 50px;
+        padding-bottom:140px;
     }
     #faq {
-        padding-top: 8px;
-    }
-}
+        background: url("../img/dock_storytelling_small.jpg") no-repeat;
+        background-size: 100% auto;
+        padding-top: 7px;
+        padding-bottom:143px;
 
-@media (min-width: 450px) and (max-width: 991px) {
-    section {
-        padding: 50px;
     }
-    .partial-width-table {
-        max-width: 90%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+
+    /* reservations.html */
+    #reservations {
+        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background-size: 100% auto;
     }
+    #summer-reservations {
+        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #fall-reservations {
+        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #calendar {
+        background: url("../img/paddle_board_small.JPG") no-repeat;
+        background-size: 100% auto;
+    }
+    #rates {
+        background: url("../img/cabin_interior1_small.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #maps {
+        background: url("../img/swimming_sunset_small.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #directions {
+        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+
+    /*  volunteer.html */
+    #overview {
+        background: url("../img/roofing2.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #volunteer {
+        background: url("../img/dusk_trail_small.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #work-weekends {
+        background: url("../img/paddle_board_small.JPG") no-repeat;
+        background-size: 100% auto;
+    }
+    #committee {
+        background: url("../img/paddle_board_small.JPG") no-repeat;
+        background-size: 100% auto;
+    }
+
 }
 
 @media (min-width: 992px) {
     section {
-        padding: 100px 0;
+        padding: 100px 0px;
     }
 
-    .partial-width-table {
-        max-width: 75%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    #expect {
+        background: url("../img/dock_panorama.JPG") no-repeat;
+        background-size: 100% auto;
     }
+    #bring {
+        background: url("../img/table2.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #faq {
+        background: url("../img/dock_storytelling.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+
+    /* reservations.html */
+    #reservations {
+        background: url("../img/dusk_trail.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #summer-reservations {
+        background: url("../img/dusk_trail.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #fall-reservations {
+        background: url("../img/dusk_trail.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #calendar {
+        background: url("../img/paddle_board.JPG") no-repeat;
+        background-size: 100% auto;
+    }
+    #rates {
+        background: url("../img/cabin_interior1.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #maps {
+        background: url("../img/swimming_sunset.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #directions {
+        background: url("../img/dusk_trail.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+
+    /*  volunteer.html */
+    #overview {
+        background: url("../img/roofing2.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #volunteer {
+        background: url("../img/dusk_trail.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    #work-weekends {
+        background: url("../img/paddle_board.JPG") no-repeat;
+        background-size: 100% auto;
+    }
+    #committee {
+        background: url("../img/paddle_board.JPG") no-repeat;
+        background-size: 100% auto;
+    }
+
 }
 
 ul.bold-headers li {
     font-weight: bold;
+    color: black;
 }
 
 ul.bold-headers li p {
     font-weight: normal;
+    color: #7e7e7e;
 }
 
 ul.checklist-yes {
     list-style-image: url("../img/checkbox-checked.png");
 }
+ul.checklist-yes span {
+    position: relative;
+    top: -1px;
+}
 ul.checklist {
     list-style-image: url("../img/checkbox_unchecked.png");
+}
+ul.checklist span {
+    position: relative;
+    top: -1px;
 }
 ul.checklist-no {
     list-style-image: url("../img/checkbox-redx.png");
@@ -56,63 +177,11 @@ ul ul, ul.checklist li ul {
     padding-left: 0px;
 }
 
-#expect {
-    background: url("../img/dock_panorama.JPG") no-repeat;
-    background-size: 100% auto;
-}
-#bring {
-    background: url("../img/table2.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#faq {
-    background: url("../img/dock_storytelling.jpg") no-repeat;
-    background-size: 100% auto;
+body {
+    color: #7e7e7e;
 }
 
-/* reservations.html */
-#reservations {
-    background: url("../img/dusk_trail.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#summer-reservations {
-    background: url("../img/dusk_trail.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#fall-reservations {
-    background: url("../img/dusk_trail.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#calendar {
-    background: url("../img/paddle_board.JPG") no-repeat;
-    background-size: 100% auto;
-}
-#rates {
-    background: url("../img/cabin_interior1.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#maps {
-    background: url("../img/swimming_sunset.JPG") no-repeat;
-    background-size: 100% auto;
-}
-#directions {
-    background: url("../img/dusk_trail.jpg") no-repeat;
-    background-size: 100% auto;
+h1, h2, h3, h4, h5, strong {
+    color: black;
 }
 
-/*  volunteer.html */
-#overview {
-    background: url("../img/roofing2.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#volunteer {
-    background: url("../img/dusk_trail.jpg") no-repeat;
-    background-size: 100% auto;
-}
-#work-weekends {
-    background: url("../img/paddle_board.JPG") no-repeat;
-    background-size: 100% auto;
-}
-#committee {
-    background: url("../img/paddle_board.JPG") no-repeat;
-    background-size: 100% auto;
-}

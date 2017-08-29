@@ -6,6 +6,7 @@ $(function () {
             $('#calendar-list').append('<tr><th>' + key + '</th><td> ' + week + '</td></tr>');
         });
         $('#calendar-year').html(calendar.year);
+        $('#rates-calendar-year').html(calendar.year);
     });
 
     // set FAQs
