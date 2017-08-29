@@ -32,11 +32,11 @@
 
     /* reservations.html */
     #reservations {
-        background: url("../img/dusk_trail_small.jpeg") no-repeat;
+        background: url("../img/dock_sunset_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #summer-reservations {
-        background: url("../img/dusk_trail_small.jpeg") no-repeat;
+        background: url("../img/dockscene_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #fall-reservations {
@@ -56,7 +56,7 @@
         background-size: 100% auto;
     }
     #directions {
-        background: url("../img/dusk_trail_small.jpeg") no-repeat;
+        background: url("../img/cabn_water_small.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
@@ -100,11 +100,11 @@
 
     /* reservations.html */
     #reservations {
-        background: url("../img/dusk_trail.jpeg") no-repeat;
+        background: url("../img/dock_sunset_long.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #summer-reservations {
-        background: url("../img/dusk_trail.jpeg") no-repeat;
+        background: url("../img/dockscene.jpeg") no-repeat;
         background-size: 100% auto;
     }
     #fall-reservations {
@@ -124,7 +124,7 @@
         background-size: 100% auto;
     }
     #directions {
-        background: url("../img/dusk_trail.jpeg") no-repeat;
+        background: url("../img/cabn_water.jpeg") no-repeat;
         background-size: 100% auto;
     }
 
