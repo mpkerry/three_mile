@@ -30,7 +30,7 @@
 
     }
 
-    /* reservations.html */
+    /* visit.html */
     #reservations {
         background: url("../img/dock_sunset_small.jpeg") no-repeat;
         background-size: 100% auto;
@@ -85,6 +85,10 @@
         padding: 100px 0px;
     }
 
+    section.text-only {
+        padding: 50px 10px;
+    }
+
     #expect {
         background: url("../img/dock_panorama.jpeg") no-repeat;
         background-size: 100% auto;
@@ -98,7 +102,7 @@
         background-size: 100% auto;
     }
 
-    /* reservations.html */
+    /* visit.html */
     #reservations {
         background: url("../img/dock_sunset_long.jpeg") no-repeat;
         background-size: 100% auto;
