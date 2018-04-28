@@ -1,0 +1,28 @@
+{
+    "year": "2017",
+    "rates" : {
+        "Summer Season" : {
+            "dates" : "June 24 through August 26",
+            "header" : {
+                "col1" : "AMC Members",
+                "col2" : "Weekly",
+                "col3" : "Nightly"
+            }
+        },
+        "Fall Weekends" : {
+            "dates" : "September, weekends only",
+            "header" : {
+                "col1" : "",
+                "col2" : "AMC Members",
+                "col3" : "Non Members"
+            }
+        },
+        "Summer Starter" : {
+            "dates" : "June 24 - June 27 OR June 27 - July 1",
+            "header" : {
+                "col1" : "AMC Members",
+                "col2" : "3-Night Starter",
+                "col3" : "4-Night Starter"
+        }
+     }
+}

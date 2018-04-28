@@ -8,7 +8,8 @@ var App = new Vue({
     el : '#app',
     data : {
         calendarData : [],
-        faqData : []
+        faqData : [],
+        ratesData : []
     },
     mounted() {
         var self = this;
@@ -17,6 +18,9 @@ var App = new Vue({
         });
         $.getJSON('/three_mile/data/faq.json', function(data){
             self.faqData = data;
+        });
+        $.getJSON('/three_mile/data/rates.json', function(data){
+            self.ratesData = data;
         });
 
     }
