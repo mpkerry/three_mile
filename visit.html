@@ -17,7 +17,7 @@
 </head>
 
 <body id="page-top">
-
+<div id="app">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
     <a class="navbar-brand js-scroll-trigger" href="index.html">
@@ -73,7 +73,7 @@
 </nav>
 <!-- end navigation -->
 <div style="height: 57px;" id="reservations">&nbsp;</div> <!-- shim to prevent navbar from overlapping content -->
-<section  class="text-white" id="reservations">
+<section  class="text-white major" id="reservations">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -83,7 +83,7 @@
     </div>
 </section>
 
-<section id="reservations-div" class="text-only">
+<section id="reservations-div" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -152,7 +152,7 @@
 </section>
 
 
-<section id="summer-reservations" class="text-white">
+<section id="summer-reservations" class="text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -162,7 +162,7 @@
     </div>
 </section>
 
-<section id="summer-reservations-div" class="text-only">
+<section id="summer-reservations-div" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -199,7 +199,7 @@
     </div>
 </section>
 
-<section id="fall-reservations" class="text-white">
+<section id="fall-reservations" class="text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -210,7 +210,7 @@
     </div>
 </section>
 
-<section id="fall-reservations-div" class="text-only">
+<section id="fall-reservations-div" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -235,43 +235,48 @@
     </div>
 </section>
 
-<section id="calendar" class="bg-light text-white">
+<section id="calendar" class="bg-light text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h2 class="text-white">
-                    <span id="calendar-year"></span> Season Calendar
+                    <span id="calendar-year">{{calendarData.year}}</span> Season Calendar
                 </h2>
             </div>
         </div>
     </div>
 </section>
 
-<section id="calendar-table" class="text-only">
+<section id="calendar-table" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <table class="table table-bordered table-striped table-hover">
-                    <tbody id="calendar-list"></tbody>
+                    <tbody id="calendar-list">
+                        <tr v-for="(value,key) in calendarData.weeks">
+                            <th>{{key}}</th>
+                            <td>{{value}}</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
     </div>
 </section>
 
-<section id="rates" class="bg-light text-white">
+<section id="rates" class="bg-light text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h2 class="text-white">
-                    <span id="rates-calendar-year"></span> Rates
+                    <span id="rates-calendar-year">{{calendarData.year}}</span> Rates
                 </h2>
             </div>
         </div>
     </div>
 </section>
 
-<section id="rates-table" class="text-only">
+<section id="rates-table" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -389,7 +394,7 @@
     </div>
 </section>
 
-<section id="maps" class="bg-light text-white">
+<section id="maps" class="bg-light text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -401,7 +406,7 @@
     </div>
 </section>
 
-<section id="maps-div" class="text-only">
+<section id="maps-div" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -415,7 +420,7 @@
     </div>
 </section>
 
-<section id="directions" class="bg-light text-white">
+<section id="directions" class="bg-light text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -426,7 +431,7 @@
         </div>
     </div>
 </section>
-<section id="directions-div" class="text-only">
+<section id="directions-div" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -498,7 +503,7 @@
 </section>
 
 
-<section id="faq" class="text-white">
+<section id="faq" class="text-white major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -508,16 +513,27 @@
     </div>
 </section>
 
-<section id="faq-div" class="text-only">
+<section id="faq-div" class="text-only major">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto" id="faq-accordion-div">
-
+                <section v-for="(questions, section, outerIdx) in faqData">
+                    <br/>
+                    <h4>{{section}}</h4>
+                    <hr>
+                    <div id="faq-accordion" data-children=".questions">
+                        <div class="questions" v-for="(a, q, innerIdx) in questions">
+                            <a data-toggle="collapse" data-parent="#faq-accordion" :href="'#faq-accordion-'+ outerIdx+innerIdx" aria-expanded="false" :aria-controls="'faq-accordion-'+ outerIdx+innerIdx">{{q}}?</a>
+                            <div :id="'faq-accordion-'+ outerIdx+innerIdx" class="collapse" role="tabpanel"><p class="mb-3">{{a}}</p></div>
+                        <hr>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
 </section>
-
+</div> <!-- end of app -->
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
@@ -552,6 +568,9 @@
 
 <!-- Plugin JavaScript -->
 <script src="js/vendor/jquery.easing.min.js"></script>
+
+<!-- Vue.js -->
+<script src="js/vendor/vue.js"></script>
 
 <!-- Custom JavaScript for this theme -->
 <script src="js/scrolling-nav.js"></script>

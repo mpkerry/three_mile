@@ -1,6 +1,6 @@
 
 @media (max-width: 991px) {
-    section {
+    section.major {
         padding: 20px;
         padding-top:80px;
         padding-bottom:110px;
@@ -81,7 +81,7 @@
 }
 
 @media (min-width: 992px) {
-    section {
+    section.major {
         padding: 100px 0px;
     }
 
